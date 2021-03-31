@@ -1,0 +1,18 @@
+bot_token: #your bot token
+
+telethon_settings:
+  # you can add (or remove) any of settings from here:
+  # https://docs.telethon.dev/en/latest/modules/client.html#telethon.client.telegrambaseclient.TelegramBaseClient
+  # any not filled value will take default value from @up
+  session: # session name
+  auto_reconnect: true
+  retry_delay: 15
+  connection_retries: -1
+  request_retries: 5
+  # example config stolen from @juniorjpdj, screw him
+  # get both of them from my.telegram.org
+  # more info: https://docs.telethon.dev/en/latest/basic/signing-in.html#signing-in
+  api_id: #your api id
+  api_hash: #your api hash
+
+log_level: DEBUG
